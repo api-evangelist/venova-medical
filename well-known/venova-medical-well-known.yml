@@ -1,0 +1,38 @@
+generated: '2026-09-02'
+method: probed
+source: live GET probes of https://venovamedical.com/.well-known/* on 2026-09-02
+note: >-
+  No /.well-known/ document is served. Every path returned HTTP 404 rendering the
+  site's WordPress 404 template (~92KB of HTML), not a document. No WellKnown or
+  SecurityTxt pointer is emitted in apis.yml, because nothing was found — this file
+  records a verified absence, not a served surface.
+hosts:
+- host: venovamedical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null

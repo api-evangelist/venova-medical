@@ -64,5 +64,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Venova Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Venova Medical, Inc. is a privately held, clinical-stage medical device company in Los Gatos, California, developing the Velocity Percutaneous AVF System — a minimally invasive device for creating an arteriovenous fistula for hemodialysis vascular access. Venova is a physical device manufacturer and publishes no public API, developer portal, SDK or machine-readable specification; contract discovery on 2026-09-02 returned 404 on every probed path.
+
+- https://venovamedical.com/
+- https://venovamedical.com/news/
+- https://clinicaltrials.gov/study/NCT05757726

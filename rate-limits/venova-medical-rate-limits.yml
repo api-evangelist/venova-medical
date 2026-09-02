@@ -1,0 +1,15 @@
+generated: '2026-09-02'
+method: searched
+source: https://venovamedical.com/
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No published rate limits, because there is no published API. Contract discovery on
+  2026-09-02 found no API host, no developer documentation and no machine-readable
+  specification on venovamedical.com, so there is no runtime surface to which a limit,
+  window or RateLimit-* response header could apply.
+pointer_emitted: false
+pointer_note: >-
+  No apis.yml common[] pointer is emitted for this file. It records a verified absence,
+  and a pointer would assert a surface the provider does not publish.

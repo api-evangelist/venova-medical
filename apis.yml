@@ -1,17 +1,37 @@
 aid: venova-medical
 name: Venova Medical
-description: 'Venova Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Venova Medical, Inc. is a privately held, clinical-stage medical device
+  company in Los Gatos, California, developing minimally invasive vascular access
+  technology for patients on hemodialysis. Its Velocity Percutaneous AVF System is
+  a next-generation percutaneous arteriovenous fistula (pAVF) device intended to create
+  a functional dialysis access with fewer reinterventions and faster maturation than
+  a surgically created fistula, targeting the stenosis at the artery-vein junction
+  that is the most common barrier to AVF success. The company is running the VENOS
+  clinical program (VENOS-2 early feasibility, VENOS-3 IDE pivotal) toward FDA approval;
+  the Velocity System remains investigational and is not FDA cleared or approved. Venova
+  is backed by ShangBay Capital, Banyan Pacific, Aphelion Capital, Cardeation, Kofa
+  Healthcare, Catalyst Health Ventures, Cadence Growth Capital and Mirae Asset Capital
+  Life Science. Venova publishes no public API, developer portal, SDK or machine-readable
+  specification: it is a physical medical device manufacturer, not a software provider.'
+image: https://venovamedical.com/wp-content/uploads/2023/02/Venova-Logo.png
 url: https://raw.githubusercontent.com/api-evangelist/venova-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-09-02'
 modified: '2026-09-02'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Hemodialysis
+- Vascular Access
+- Nephrology
+- Interventional Cardiology
+- Clinical Stage
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +40,40 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://venovamedical.com/
+- type: Blog
+  url: https://venovamedical.com/news/
+- type: BlogRSS
+  url: https://venovamedical.com/feed/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/venova-medical-inc
+- type: ClinicalTrial
+  url: https://clinicaltrials.gov/study/NCT05757726
+- type: LLMsTxt
+  url: llms/venova-medical-llms.txt
+- type: DomainSecurity
+  url: security/venova-medical-domain-security.yml
+x-enrichment:
+  date: '2026-09-02'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Venova Medical is a clinical-stage manufacturer of a percutaneous AV fistula
+    device; its entire web presence is a four-page WordPress/Divi marketing site with
+    no developer, docs or API section, and every contract-discovery path probed on
+    venovamedical.com returned the site's 404 template.
+  evidence:
+  - url: https://venovamedical.com/openapi.json
+    status: 404
+  - url: https://venovamedical.com/.well-known/api-catalog
+    status: 404
+  - url: https://venovamedical.com/.well-known/agent-card.json
+    status: 404
+  - url: https://venovamedical.com/.well-known/security.txt
+    status: 404
+  - url: https://venovamedical.com/page-sitemap.xml
+    status: 200
+  checked: '2026-09-02'

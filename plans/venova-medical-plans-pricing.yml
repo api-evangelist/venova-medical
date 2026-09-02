@@ -1,0 +1,16 @@
+generated: '2026-09-02'
+method: searched
+source: https://venovamedical.com/
+plan_count: 0
+plans: []
+note: >-
+  Venova Medical publishes no plans, pricing or subscription tiers of any kind. It is
+  a clinical-stage medical device manufacturer whose product, the Velocity Percutaneous
+  AVF System, is investigational and not commercially available; there is no API, no
+  developer program, and no pricing page anywhere on venovamedical.com (the site's
+  page sitemap lists four pages: home and three VENOS-3 study pages). An honest zero,
+  not an unmeasured gap.
+pointer_emitted: false
+pointer_note: >-
+  No apis.yml common[] pointer is emitted for this file. It records a verified absence,
+  and a pointer would assert a surface the provider does not publish.

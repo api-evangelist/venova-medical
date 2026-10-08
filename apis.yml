@@ -39,6 +39,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/venova-medical-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/venova-medical-rate-limits.yml
 - type: Website
   url: https://venovamedical.com/
 - type: Blog

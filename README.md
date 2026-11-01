@@ -64,8 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Venova Medical, Inc. is a privately held, clinical-stage medical device company in Los Gatos, California, developing the Velocity Percutaneous AVF System — a minimally invasive device for creating an arteriovenous fistula for hemodialysis vascular access. Venova is a physical device manufacturer and publishes no public API, developer portal, SDK or machine-readable specification; contract discovery on 2026-09-02 returned 404 on every probed path.
+Venova Medical, Inc. is a privately held, clinical-stage medical device company in Los Gatos, California, developing minimally invasive vascular access technology for patients on hemodialysis. Its Velocity Percutaneous AVF System is a next-generation percutaneous arteriovenous fistula (pAVF) device intended to create a functional dialysis access with fewer reinterventions and faster maturation than a surgically created fistula, targeting the stenosis at the artery-vein junction that is the most common barrier to AVF success. The company is running the VENOS clinical program (VENOS-2 early feasibility, VENOS-3 IDE pivotal) toward FDA approval; the Velocity System remains investigational and is not FDA cleared or approved. Venova is backed by ShangBay Capital, Banyan Pacific, Aphelion Capital, Cardeation, Kofa Healthcare, Catalyst Health Ventures, Cadence Growth Capital and Mirae Asset Capital Life Science. Venova publishes no public API, developer portal, SDK or machine-readable specification: it is a physical medical device manufacturer, not a software provider.
 
-- https://venovamedical.com/
-- https://venovamedical.com/news/
-- https://clinicaltrials.gov/study/NCT05757726
+**Areas:** Company · Medical Devices · Healthcare · Hemodialysis · Vascular Access · Nephrology · Interventional Cardiology · Clinical Stage · Life Sciences
+
+## Venova Medical on APIs.io
+
+Everything profiled for Venova Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/venova-medical/](https://apis.io/providers/venova-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Venova Medical Domain Security](https://apis.io/security/venova-medical/venova-medical-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Venova Medical Plans Pricing](https://apis.io/plans/venova-medical/venova-medical-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Venova Medical Rate Limits](https://apis.io/rate-limits/venova-medical/venova-medical-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://venovamedical.com/)
+- [Blog](https://venovamedical.com/news/)
+
+## API Evangelist rating
+
+**Kin Score 4.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/venova-medical/](https://apis.io/providers/venova-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Venova Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/venova-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
